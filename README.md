@@ -1,2 +1,2 @@
 ****************************************************************
-This is an initial version of my website.
+This initial version of shop.

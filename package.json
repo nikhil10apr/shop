@@ -1,7 +1,7 @@
 {
-  "name": "website-design",
+  "name": "shop-design",
   "version": "1.0.0",
-  "description": "Initial Website Design",
+  "description": "Initial Shop Design",
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && webpack",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikhil10apr/website-design.git"
+    "url": "git+https://github.com/nikhil10apr/shop.git"
   },
   "author": "Nikhil Koul",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nikhil10apr/website-design/issues"
+    "url": "https://github.com/nikhil10apr/shop/issues"
   },
-  "homepage": "https://github.com/nikhil10apr/website-design#readme",
+  "homepage": "https://github.com/nikhil10apr/shop#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -41,6 +41,7 @@
     "webpack-hot-middleware": "^2.24.3"
   },
   "dependencies": {
+    "event-stream": "^3.3.4",
     "lodash": "^4.17.11",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
